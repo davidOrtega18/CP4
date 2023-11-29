@@ -82,9 +82,19 @@
             displayError('Player card element not found');
         }
     }
-      //Grab element by ID. After grabbing it, setup onlistener for click event
-    //When the button is clicked by window.location.href, set that that.String
-    //and concatenate the string. 
+    
+
+    
+/**
+ * Function to display a player's statistics in a card.
+ * 
+ * It checks if the 'card' element and player's stats exist.
+ * If true, it creates and appends an HTML list of stats to the card.
+ * If false, it displays an error message.
+ * 
+ * @param {Object} player - The player object with stats to display.
+ */
+
     function displayStats(player) {
         const playerCardDiv = id('card');
         if (playerCardDiv && player.stats) {
