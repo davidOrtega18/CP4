@@ -159,7 +159,7 @@ app.get('/api/players/summary/:id', function(req, res) {
         const summary = `${player.name}, playing for ${player.team}, is a renowned ${player.sport} player. Some key stats: ${JSON.stringify(player.stats)}.`;
         res.type('text/plain').send(summary);
     } else {
-        res.status(404).send('Player not found');
+        res.status(404).send(`Given player ${player.name} not found`);
     }
 });
 
