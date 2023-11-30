@@ -51,6 +51,7 @@
             }
     
             currentPlayer = data[Math.floor(Math.random() * data.length)];
+            console.log(data.length);
             displayPlayerCard(currentPlayer);
             statsDisplayed = false;
             id("statsButton").disabled = false;
@@ -77,6 +78,7 @@
                 <h3 id= "card-title">Name: ${player.name}</h3>
                 <p>Team: ${player.team}</p>
                 <p>Sport: ${player.sport}</p>
+           
             `;
         } else {
             displayError('Player card element not found');

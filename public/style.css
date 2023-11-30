@@ -21,7 +21,7 @@ body {
     border-radius: 15px;
     margin: 10px;
     padding: 20px;
-    display: inline-block;
+    display:flexbox;
     vertical-align: top;
     background-color: #447869;
 }

@@ -23,21 +23,21 @@ app.use(cors(corsOptions));
 //Sample data
 let players = [
     {
-        'id' : '1',
+        'id' : '0',
         'image' : 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSX4n2YLQE2JceIRELRxisiFQPdeRAZFurulyeYj6TVLTHNNWme',
         'name' : 'Michael Jordan',
         'team' : 'Chicago Bulls',
         'sport' : 'Basketball',
         'stats' : {
-            'points' : '30.1',
-            'rebounds' : '6.2',
-            'assists' : '5.3',
+            'points' : '32,292',
+            'rebounds' : '6,672',
+            'assists' : '5,633',
         },
 
     },
 
     {
-        'id' : '2',
+        'id' : '1',
         'image' : 'https://cdn.vox-cdn.com/thumbor/TLaSlagdKOYFAff4G8cnNMJCtNo=/0x131:3272x1481/1200x800/filters:focal(1745x564:2267x1086)/cdn.vox-cdn.com/uploads/chorus_image/image/70460127/633944192.5.jpg',
         'name' : 'Tom Brady',
         'team' : 'New England Patriots',
@@ -50,7 +50,7 @@ let players = [
     },
 
     {
-        'id' : '3',
+        'id' : '2',
         'image' : 'https://media.cnn.com/api/v1/images/stellar/prod/220913055200-01-mike-trout-la-angels-mlb-record-spt-intl.jpg?c=original',
         'name' : 'Mike Trout',
         'team' : 'Los Angeles Angels',
@@ -63,7 +63,7 @@ let players = [
     },
 
     {
-        'id' : '4',
+        'id' : '3',
         'image' : 'https://cloudfront-us-east-2.images.arcpublishing.com/reuters/LKEB6TK7VZOBFJSTJHV7CAYD6A.jpg ',
         'name' : 'Cristiano Ronaldo',
         'team' : 'Al-Nassr',
@@ -75,7 +75,7 @@ let players = [
         }
     },
     {
-        'id' : '5',
+        'id' : '4',
         'image' : 'https://images.wsj.net/im-9284/?width=700&height=467 ',
         'name' : 'Ichiro Suzuki',
         'team' : 'Mariners',
@@ -88,7 +88,7 @@ let players = [
 
     },
     {
-        'id' : '6',
+        'id' : '5',
         'image' : 'https://ekcfbmsotzc.exactdn.com/en/blog/wp-content/uploads/2022/06/Marshawn-Lynch-1.jpg?strip=all&lossy=1&ssl=1 ',
         'name' : 'Marshawn Lynch',
         'team' : 'Seattle Seahawks',
@@ -101,7 +101,7 @@ let players = [
     },
 
     {
-        'id' : '7',
+        'id' : '6',
         'image' : 'https://cdn.britannica.com/35/238335-050-2CB2EB8A/Lionel-Messi-Argentina-Netherlands-World-Cup-Qatar-2022.jpg',
         'name' : 'Lionel Messi',
         'team' : 'Inter Miami CF',
